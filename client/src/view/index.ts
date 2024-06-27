@@ -1,0 +1,5 @@
+export { default as NotFoundPage } from './not-found'
+export { default as LandingPage } from './landing/page'
+export { default as LoginPage } from './auth/login/page'
+export { default as DashboardPage } from './dashboard/page'
+export { default as RegisterPage } from './auth/register/page'
