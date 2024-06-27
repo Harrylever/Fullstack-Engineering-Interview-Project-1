@@ -37,7 +37,7 @@ export class AuthController {
     const result = await this.authService.login(body);
     res.cookie('token', result.token, {
       path: '/',
-      domain: '.example.com',
+      domain: `.${process.env.CLIENT_DOMAIN}`,
       httpOnly: true,
       expires: new Date(Date.now() + 1000 * 86400), // 1 day
       secure: true,
@@ -45,7 +45,7 @@ export class AuthController {
     });
     res.cookie('notToken', 'active', {
       path: '/',
-      domain: '.example.com',
+      domain: `.${process.env.CLIENT_DOMAIN}`,
       httpOnly: false,
       expires: new Date(Date.now() + 1000 * 86400), // 1 day
       secure: true,
@@ -60,7 +60,7 @@ export class AuthController {
   public async logout(@Res() res: Response) {
     res.cookie('token', '', {
       path: '/',
-      domain: '.example.com',
+      domain: `.${process.env.CLIENT_DOMAIN}`,
       httpOnly: true,
       expires: new Date(0),
       secure: true,
@@ -68,7 +68,7 @@ export class AuthController {
     });
     res.cookie('notToken', '', {
       path: '/',
-      domain: '.example.com',
+      domain: `.${process.env.CLIENT_DOMAIN}`,
       httpOnly: false,
       expires: new Date(0),
       secure: true,

@@ -47,7 +47,6 @@ const RegisterPage = () => {
 
   useEffect(() => {
     if (error) {
-      console.log(error)
       const err = error as Error & { response: { data: { message: string } } }
       if (err.response.data.message.toLowerCase() === 'user already exists') {
         toast({
