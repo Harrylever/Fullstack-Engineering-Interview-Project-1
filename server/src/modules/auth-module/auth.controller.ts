@@ -37,17 +37,19 @@ export class AuthController {
     const result = await this.authService.login(body);
     res.cookie('token', result.token, {
       path: '/',
+      domain: '.example.com',
       httpOnly: true,
       expires: new Date(Date.now() + 1000 * 86400), // 1 day
-      sameSite: 'none',
       secure: true,
+      sameSite: 'lax',
     });
     res.cookie('notToken', 'active', {
       path: '/',
+      domain: '.example.com',
       httpOnly: false,
       expires: new Date(Date.now() + 1000 * 86400), // 1 day
-      sameSite: 'none',
       secure: true,
+      sameSite: 'lax',
     });
     return res
       .status(HttpStatus.OK)
@@ -58,17 +60,19 @@ export class AuthController {
   public async logout(@Res() res: Response) {
     res.cookie('token', '', {
       path: '/',
+      domain: '.example.com',
       httpOnly: true,
       expires: new Date(0),
-      sameSite: 'none',
       secure: true,
+      sameSite: 'lax',
     });
     res.cookie('notToken', '', {
       path: '/',
+      domain: '.example.com',
       httpOnly: false,
       expires: new Date(0),
-      sameSite: 'none',
       secure: true,
+      sameSite: 'none',
     });
     return res
       .status(HttpStatus.OK)
