@@ -40,6 +40,8 @@ $ npm run lint
 $ npm run format
 ```
 
+#### Note: To run the application you are to copy the variables in .env.example to a new .env file in the client folder.
+
 ## Server package
 
 ### Description
@@ -62,5 +64,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+#### To run the server in development mode the environment variables in .env.example should be put in a new .env file and assign the respective values.
 
 #### Note: To deploy the server on production you are to set update the domain attribute on the environment to the necessary domain name.
