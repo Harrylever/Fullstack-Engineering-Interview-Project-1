@@ -1,12 +1,12 @@
 <p align="center">A Full stack Project by Dean Ukanah</p>
 <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=fff" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" alt="NPM Version" /></a>
+<a href="https://vitejs.dev" target="_blank"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff" alt="NPM Version" /></a>
+<a href="https://react.dev" target="_blank"><img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" alt="NPM Version" /></a>
+<a href="https://tailwindcss.com" target="_blank"><img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" alt="NPM Version" /></a>
+<a href="https://reactrouter.com" target="_blank"><img src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white" alt="NPM Version" /></a>
+<a href="https://tanstack.com/query/latest/docs/framework/react/overview" target="_blank"><img src="https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=fff" alt="NPM Version" /></a>
+<a href="https://nestjs.com" target="_blank"><img src="https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white" alt="NPM Version" /></a>
+<a href="https://nodejs.org/en" target="_blank"><img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" alt="NPM Version" /></a>
 </p>
 
 ## Client package.
